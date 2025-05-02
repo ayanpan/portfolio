@@ -169,3 +169,12 @@ td:first-child {
   background-color: #f9f9f9;
   width: 30%;
 }
+
+.profile-photo {
+  border-radius: 50%;
+  width: 100px;  /* Reduced size */
+  height: 100px;  /* Reduced size */
+  object-fit: cover;
+  margin-top: 20px;
+}
+
