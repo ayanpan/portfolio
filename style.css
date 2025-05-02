@@ -141,3 +141,31 @@ nav a::after {
 nav a:hover::after {
   width: 100%;
 }
+
+/* ====== Table Styling ====== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+  text-align: left;
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+td:first-child {
+  font-weight: bold;
+  background-color: #f9f9f9;
+  width: 30%;
+}
