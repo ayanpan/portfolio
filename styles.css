@@ -1,19 +1,21 @@
 body {
   font-family: Arial, sans-serif;
+  line-height: 1.6;
   margin: 0;
-  padding: 0;
-  background-color: #fff0f5;
+  background-color: #f4f4f4;
   color: #333;
 }
 
 header {
-  background-color: #6982ff;
-  padding: 1em;
+  background-color: #222;
+  color: #fff;
+  padding: 20px 10px;
+  text-align: center;
 }
 
 nav a {
-  color: white;
   margin: 0 15px;
+  color: #ffcc00;
   text-decoration: none;
 }
 
@@ -21,6 +23,28 @@ nav a:hover {
   text-decoration: underline;
 }
 
-main {
+section {
   padding: 20px;
+  background: #fff;
+  margin: 10px auto;
+  max-width: 900px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #004488;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
 }
