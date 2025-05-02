@@ -251,7 +251,7 @@ td:first-child {
 }
 
 .quick-links h3 {
-  font-size: 2em;
+  font-size: 1.7em;
   color: #333;
 }
 
@@ -261,7 +261,7 @@ td:first-child {
 }
 
 .quick-links ul li {
-  font-size: 1.2em;
+  font-size: 1em;
   margin-bottom: 10px;
 }
 
