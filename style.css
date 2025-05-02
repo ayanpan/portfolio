@@ -174,34 +174,51 @@ td:first-child {
   white-space: nowrap;
 }
 
-/* Container for profile image and content */
+/* Profile container: image left, content right */
 .profile-container {
   display: flex;
-  align-items: flex-start; /* Align items to the top */
-  gap: 30px;               /* Space between image and content */
+  align-items: flex-start;   /* Ensures top alignment */
+  gap: 30px;
   margin: 40px 0;
   padding: 0 20px;
+  animation: fadeInUp 0.8s ease-out both;
+  flex-wrap: wrap;           /* Stacks on small screens */
 }
 
-/* Profile photo styling */
+/* Profile photo stays fixed */
 .profile-photo {
   border-radius: 50%;
   width: 120px;
   height: 120px;
   object-fit: cover;
   flex-shrink: 0;
-  margin-top: 0; /* Remove any default spacing */
+  margin-top: 0;
 }
 
-/* Content next to profile image */
+/* Content should align with the top of the photo */
 .profile-content {
-  max-width: 700px; /* Limit the width of content */
+  max-width: 700px;
+  flex: 1;
+  margin-top: 0;        /* Remove any top margin */
+  padding-top: 0;       /* Remove top padding */
 }
 
-/* Heading style for the hero section */
-.profile-content h2 {
-  font-size: 2.5em;
-  color: #333;
+/* Ensure consistent spacing on small screens */
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-content {
+    margin-top: 0; /* Avoid accidental offset */
+    padding-top: 0;
+  }
+
+  .profile-photo {
+    margin-bottom: 20px;
+  }
 }
 
 /* Paragraph styling */
