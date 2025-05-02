@@ -170,6 +170,10 @@ td:first-child {
   width: 30%;
 }
 
+.nowrap-table td {
+  white-space: nowrap;
+}
+
 /* Container for profile image and content */
 .profile-container {
   display: flex;
