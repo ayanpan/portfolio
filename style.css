@@ -212,28 +212,6 @@ td:first-child {
   font-weight: bold;
 }
 
-/* Responsive Tables */
-@media (max-width: 768px) {
-  table, thead, tbody, th, td, tr {
-    display: block;
-  }
-
-  thead {
-    display: none;
-  }
-
-  tr {
-    margin-bottom: 15px;
-    border-bottom: 2px solid #eee;
-  }
-
-  td {
-    padding-left: 50%;
-    position: relative;
-    text-align: left;
-  }
-}
-
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   header h1 {
