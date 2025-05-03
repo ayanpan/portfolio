@@ -232,16 +232,6 @@ td:first-child {
     position: relative;
     text-align: left;
   }
-
-  td::before {
-    position: absolute;
-    top: 50%;
-    left: 16px;
-    transform: translateY(-50%);
-    font-weight: bold;
-    white-space: nowrap;
-    content: attr(data-label);
-  }
 }
 
 /* Responsive Adjustments */
