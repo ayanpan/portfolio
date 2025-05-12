@@ -124,6 +124,7 @@ section p {
 .profile-content {
   flex: 1;
   min-width: 200px;
+  text-align: justify;
 }
 
 /* Text Styling */
